@@ -1,0 +1,18 @@
+{
+    "name": "ice/icetable-plugin",
+    "description": "A simple WP Plugin to activate endpoint table for a JSON users file call from https://jsonplaceholder.typicode.com/users",
+    "type": "wp-plugin",
+    "license": "GPLv3",
+    "authors": [{
+        "name": "Imam Arief Putrajaya",
+        "email": "ice.codename@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": { },
+    "require-dev": { "brain/monkey": "~2.0.0",
+        "inpsyde/php-coding-standards": "^0.13",
+        "phpunit/phpunit": "8.5.x-dev" },
+    "autoload": {
+        "psr-4": { "Inc\\": "./inc" }
+    }
+}
